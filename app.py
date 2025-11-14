@@ -9,7 +9,7 @@ st.write("Estimate your monthly carbon emissions and get tips to reduce them!")
 distance = st.number_input("🚗 How many km do you drive per week?", 0, 2000, 50)
 electricity = st.number_input("💡 How many kWh of electricity do you use per month?", 0, 2000, 100)
 meat_meals = st.slider("🍖 How many meat-based meals do you eat per week?", 0, 21, 7)
-flights = st.number_input(✈️ How many short flights (under 3h) do you take per year?", 0, 50, 0)
+flights = st.number_input("✈️ How many short flights (under 3h) do you take per year?", 0, 50, 0)
 recycle = st.selectbox("♻️ Do you recycle regularly?", ["Yes", "No"])
 
 # Simple emission factors (approx kg CO2)
